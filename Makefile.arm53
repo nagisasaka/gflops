@@ -1,0 +1,5 @@
+all:
+	g++ --verbose -std=c++11 -g -O3 -mcpu=cortex-a53 -mfpu=neon-fp-armv8 -mfloat-abi=hard -funsafe-math-optimizations p1.cpp -o p1.arm53
+
+clean:
+	rm p1.arm53

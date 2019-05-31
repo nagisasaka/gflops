@@ -1,0 +1,4 @@
+all:
+	g++ --verbose -std=c++11 -g -O3 -march=native -mtune=native  p1.cpp -o p1.x86_64
+clean:
+	rm p1.x86_64
